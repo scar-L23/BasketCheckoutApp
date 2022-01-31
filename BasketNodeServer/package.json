@@ -1,0 +1,13 @@
+{
+  "name": "basketnodeserver",
+  "version": "1.2.0",
+  "description": "Server to support shopping basket challenges",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Geektastic",
+  "license": "ISC"
+}

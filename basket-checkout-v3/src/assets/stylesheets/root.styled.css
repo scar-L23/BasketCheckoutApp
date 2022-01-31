@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.App--container {
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.container--product_list .product_list--footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container--checkout_view  table thead tr{
+    text-align: right;
+}
+
+.container--checkout_view table tbody td{
+    text-align: center;
+}
+
+.header--container {
+    border-bottom: 1px solid rgba(229,231,235, 1);
+}
+
+.header--wrapper {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+td {
+    text-align: right;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.container--loader {
+    margin: auto;
+    text-align: center;
+}
